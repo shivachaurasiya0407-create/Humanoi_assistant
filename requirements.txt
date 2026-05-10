@@ -1,0 +1,78 @@
+# AI Chat Application Dependencies
+# Install with: pip install -r requirements.txt
+
+# Google Gemini SDK - Official Python client library for Google Gemini API
+google-generativeai>=0.3.0
+
+# Python-dotenv - Load environment variables from .env file
+python-dotenv>=1.0.0
+
+# Voice Input Dependencies
+# Vosk - Offline speech recognition library
+vosk>=0.3.45
+
+# SoundDevice - Cross-platform audio library for microphone input
+# Works on Windows, macOS, and Linux without special build tools
+sounddevice>=0.4.6
+
+# NumPy - Required for audio data processing
+numpy>=1.24.0
+
+# Voice Output Dependencies (Text-to-Speech)
+# pyttsx3 - Offline text-to-speech engine (cross-platform)
+# Uses SAPI5 on Windows, NSSpeechSynthesizer on macOS, espeak on Linux
+pyttsx3>=2.90
+
+# ElevenLabs Streaming TTS
+requests>=2.31.0
+
+# Coqui TTS - High-quality offline neural text-to-speech
+# Provides natural-sounding voices using deep learning models (VITS, Tacotron2)
+# Works offline after initial model download
+# Note: On Linux, you may also need: sudo apt-get install espeak libespeak-dev
+# Note: On macOS, you may also need: brew install espeak
+# TTS>=0.21.0  # Requires Python <3.12, use Python 3.11 venv for Coqui TTS
+# API Server Dependencies
+fastapi>=0.100.0
+uvicorn>=0.23.0
+
+# System Scanner Dependencies
+psutil>=5.9.0
+
+# Desktop GUI
+PyQt5>=5.15.0
+PyQtWebEngine>=5.15.0
+
+# For WebSocket communication
+websocket-client>=1.3.0
+
+# YOLO UI Detection Dependencies (NEW)
+ultralytics>=8.0.0
+--index-url https://download.pytorch.org/whl/cu121
+torch
+torchvision
+torchaudio
+easyocr>=1.7.0
+opencv-python>=4.8.0
+mss>=9.0.0
+
+# Human Mouse Control
+pynput>=1.7.0
+rapidfuzz>=3.0.0
+pyautogui>=0.9.0
+pynput>=1.7.0
+
+# Browser Automation (Playwright)
+# Install browsers with: playwright install
+playwright>=1.40.0
+
+# Voice Emotion Detection Dependencies
+librosa>=0.10.1
+scikit-learn>=1.3.0
+resampy>=0.4.2
+joblib>=1.3.0  # For sklearn model persistence
+
+# Multi-Device Sync System (NEW)
+redis>=5.0.0
+pymongo==4.8.0
+motor==3.5.0  # Async MongoDB

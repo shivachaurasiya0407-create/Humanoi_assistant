@@ -1,0 +1,20 @@
+# TTS Dependencies for Python 3.9-3.11 only
+# Use with Python 3.11 venv for Coqui TTS high-quality offline neural TTS
+
+# Core deps (same as requirements.txt)
+google-generativeai>=0.3.0
+python-dotenv>=1.0.0
+vosk>=0.3.45
+sounddevice>=0.4.6
+numpy>=1.24.0
+pyttsx3>=2.90
+requests>=2.31.0
+
+# Coqui TTS (high-quality neural voices)
+TTS>=0.21.0
+
+# Installation:
+# python3.11 -m venv venv-tts
+# venv-tts\\Scripts\\activate  (Windows)
+# pip install -r requirements-tts.txt
+

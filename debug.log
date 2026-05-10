@@ -1,0 +1,25 @@
+[12624:15396:0503/222137.766:VERBOSE1:chrome\updater\event_history.cc:166] Failed to write security descriptor for C:\Program Files (x86)\Google\GoogleUpdater\updater_history.jsonl: Access is denied. (0x5)
+[12624:15396:0503/222137.766:VERBOSE1:chrome\updater\updater.cc:432] Version: 148.0.7730.0, opt, x86_64, command line: "C:\Program Files (x86)\Google\Update\GoogleUpdate.exe"
+[12624:15396:0503/222137.766:VERBOSE1:chrome\updater\updater.cc:435] OS version: 10.0.19045.6466, arch: x86_64, System uptime (seconds): 809205, parent pid: 10576
+[12624:15396:0503/222137.766:VERBOSE1:chrome\updater\updater.cc:444] Parent process command line: "C:\Users\WINDOWS\AppData\Local\Python\pythoncore-3.14-64\python.exe"  main.py
+[12624:15396:0503/222137.766:VERBOSE1:chrome\updater\updater.cc:343] available: 2888M, total: 14045M, phys: 4G
+[12624:15396:0503/222137.766:VERBOSE1:chrome\updater\event_history.cc:243] Failed to write history event: logging not initialized
+[16484:1520:0503/222137.839:VERBOSE1:chrome\updater\event_history.cc:166] Failed to write security descriptor for C:\Program Files (x86)\Google\GoogleUpdater\updater_history.jsonl: Access is denied. (0x5)
+[16484:1520:0503/222137.839:VERBOSE1:chrome\updater\updater.cc:432] Version: 148.0.7730.0, opt, x86_64, command line: "C:\Program Files (x86)\Google\Update\GoogleUpdate.exe" --crash-handler --system "--database=C:\Program Files (x86)\Google\GoogleUpdater\148.0.7730.0\Crashpad" --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=148.0.7730.0 "--attachment=C:\Program Files (x86)\Google\GoogleUpdater\updater.log" "--attachment=C:\Program Files (x86)\Google\GoogleUpdater\updater_history.jsonl" --initial-client-data=0x264,0x268,0x26c,0x240,0x270,0x7ff7b2903af4,0x7ff7b2903b00,0x7ff7b2903b10
+[16484:1520:0503/222137.839:VERBOSE1:chrome\updater\updater.cc:435] OS version: 10.0.19045.6466, arch: x86_64, System uptime (seconds): 809205, parent pid: 12624
+[16484:1520:0503/222137.839:VERBOSE1:chrome\updater\updater.cc:444] Parent process command line: "C:\Program Files (x86)\Google\Update\GoogleUpdate.exe"
+[16484:1520:0503/222137.839:VERBOSE1:chrome\updater\updater.cc:343] available: 2886M, total: 14045M, phys: 4G
+[16484:1520:0503/222137.839:VERBOSE1:chrome\updater\event_history.cc:243] Failed to write history event: logging not initialized
+[12624:15396:0503/222137.886:VERBOSE1:chrome\updater\crash_reporter.cc:129] Crash handler launched and ready.
+[12624:15396:0503/222137.886:ERROR:chrome\updater\crash_client.cc:124] Failed to fetch completed crash reports: 3
+[12624:15396:0503/222137.886:ERROR:chrome\updater\crash_client.cc:140] Failed to fetch pending crash reports: 3
+[12624:15396:0503/222137.886:VERBOSE2:chrome\updater\usage_stats_permissions_win.cc:77] usage stats enabled by app {8a69d345-d564-463c-aff1-a69d9e530f96}
+[12624:15396:0503/222137.901:ERROR:third_party\crashpad\crashpad\util\file\file_io_win.cc:181] CreateFile C:\Program Files (x86)\Google\GoogleUpdater\148.0.7730.0\Crashpad\settings.dat: Access is denied. (0x5)
+[12624:15396:0503/222137.901:ERROR:third_party\crashpad\crashpad\util\file\file_io_win.cc:181] CreateFile C:\Program Files (x86)\Google\GoogleUpdater\148.0.7730.0\Crashpad\settings.dat: Access is denied. (0x5)
+[12624:15396:0503/222137.901:VERBOSE1:chrome\updater\updater.cc:106] Crash reporting initialized.
+[12624:15396:0503/222137.901:VERBOSE1:chrome\updater\updater.cc:156] IsUserAdmin: 0, IsUserNonElevatedAdmin: 1, IsUACOn: 1, IsElevatedWithUACOn: 0, LUA: 1
+[12624:15396:0503/222137.901:VERBOSE1:chrome\updater\updater.cc:246] Unknown command line switch.
+[12624:15396:0503/222137.947:VERBOSE1:chrome\updater\event_history.cc:243] Failed to write history event: logging not initialized
+[12624:15396:0503/222137.947:VERBOSE1:chrome\updater\updater.cc:470] UpdaterMain (--) returned 75009.
+[16484:1520:0503/222137.963:VERBOSE1:chrome\updater\event_history.cc:243] Failed to write history event: logging not initialized
+[16484:1520:0503/222137.963:VERBOSE1:chrome\updater\updater.cc:470] UpdaterMain (--crash-handler) returned 0.
